@@ -1,0 +1,62 @@
+锐能微编译器IAR支持CMSIS文件目录结构如下
+RN8211-------->startup--------->iar----->startup_RN8211.s(V1.2)				
+					 RN8211.h(V1.3)					
+					 system_RN8211.c(V1.0)
+					 system_RN8211.h(V1.0)
+RN8211B-------->startup-------->iar----->startup_RN8211B.s(V1.2)				
+					 RN8211B.h(V1.3)					
+					 system_RN8211B.c(V1.0)
+					 system_RN8211B.h(V1.0)
+RN8213-------->startup--------->iar----->startup_RN8213.s(V1.2)				
+					 RN8213.h(V1.3)					
+					 system_RN8213.c(V1.0)
+					 system_RN8213.h(V1.0)
+RN8213B-------->startup--------->iar----->startup_RN8213B.s(V1.2)				
+					 RN8213B.h(V1.2)					
+					 system_RN8213B.c(V1.0)
+					 system_RN8213B.h(V1.0)
+RN8215-------->startup--------->iar----->startup_RN8215.s(V1.3)				
+					 RN8215.h(V1.2)						
+					 system_RN8215.c(V1.0)
+					 system_RN8215.h(V1.0)
+RN8312-------->startup--------->iar----->startup_RN8312.s(V1.2)				
+					 RN8312.h(V1.2)					
+					 system_RN8312.c(V1.0)
+					 system_RN8312.h(V1.0)
+
+
+2015-08-27 更新以下文档到V1.2
+RN8211-------->startup--------->iar----->startup_RN8211.s(V1.2)				
+					 RN8211.h(V1.2)
+					
+RN8211B-------->startup--------->arm----->startup_RN8211B.s(V1.2)			 
+					 RN8211B.h(V1.2)
+					
+RN8213-------->startup--------->arm----->startup_RN8213.s(V1.2)				
+					 RN8213.h(V1.2)
+					
+RN8213B-------->startup--------->arm----->startup_RN8213B.s(V1.2)				
+					 RN8213B.h(V1.2)
+					
+RN8215-------->startup--------->arm----->startup_RN8215.s(V1.2)			
+					 RN8215.h(V1.2)
+					
+
+		更新内容：增加B版兼容，并向下兼容
+					
+
+2017-03-17 更新以下文档到V1.3
+RN8211-------->startup--------->iar----->RN8211.h(V1.3)				
+					 
+					
+RN8211B-------->startup--------->iar----->RN8211B.h(V1.3)		 
+					 
+					
+RN8213-------->startup--------->iar----->RN8213.h(V1.3)
+		更新内容：增加C版支持，并向下兼容
+				
+RN8215-------->startup--------->iar----->startup_RN8215.s(V1.3)
+		修订错误：删除多余的中断分配，解决EXT0开始之后的中断向量分配错误
+				 
+					 
+					

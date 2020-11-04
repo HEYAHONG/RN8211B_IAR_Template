@@ -1,0 +1,15 @@
+<?xml version="1.1" encoding="iso-8859-1"?>
+
+<flash_device>
+  <exe>FlashRN8xxx_128KB.out</exe>
+  <page>128</page>
+  <block>32 0x1000</block>
+  <flash_base>0x0</flash_base>
+  <macro>RN8xxx.mac</macro>
+  <aggregate>1</aggregate>
+  <args_doc>The "--config" argument is used to program
+Config0 register. For example use "--config 0xF84FFFFF".
+Note1: Using "--config" arg will erase APROM page 0
+Note2: Using "--config" arg without register value willW
+erase the Config0 register to 0xFFFFFFFF</args_doc>
+</flash_device>

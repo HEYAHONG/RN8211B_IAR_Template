@@ -1,0 +1,7 @@
+<?xml version="1.1" encoding="iso-8859-1"?>
+
+<flash_board>
+  <pass>
+    <loader>FlashRN8xxx_128KB.flash</loader>
+  </pass>
+</flash_board>
