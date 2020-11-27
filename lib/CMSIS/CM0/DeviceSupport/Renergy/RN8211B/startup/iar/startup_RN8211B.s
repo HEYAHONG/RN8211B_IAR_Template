@@ -93,6 +93,7 @@ __Vectors_Size  EQU     __Vectors_End - __Vectors
 Reset_Handler
          IMPORT  SystemInit
          IMPORT  __main
+         PUSH    {R0,R1} ;修复可能存在的栈错误(仅IAR)
          LDR     R0, =SystemInit
          BLX     R0
          LDR     R0, =__iar_program_start
